@@ -24,7 +24,7 @@ namespace Xamarin_Magazin_Examle.Views
         {
             if (e.SelectedItem == null) return;
             Models.Offer item = (Models.Offer)e.SelectedItem;
-            //((ListView)sender).SelectedItem = null;
+            ((ListView)sender).SelectedItem = null;
 
             await Navigation.PushModalAsync(new Views.OfferPage(new ViewsModels.OfferModel(item)));
         }

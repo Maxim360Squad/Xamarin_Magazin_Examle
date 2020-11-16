@@ -4,7 +4,6 @@ F:\DEV\Work\Avito\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\Xamarin_Magazin_
 F:\DEV\Work\Avito\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\bin\Debug\netstandard2.0\Xamarin_Magazin_Examle.pdb
 F:\DEV\Work\Avito\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\obj\Debug\netstandard2.0\Xamarin_Magazin_Examle.csprojAssemblyReference.cache
 F:\DEV\Work\Avito\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\obj\Debug\netstandard2.0\App.xaml.g.cs
-F:\DEV\Work\Avito\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 F:\DEV\Work\Avito\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\obj\Debug\netstandard2.0\Views\MagazinPage.xaml.g.cs
 F:\DEV\Work\Avito\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\obj\Debug\netstandard2.0\Xamarin_Magazin_Examle.AssemblyInfoInputs.cache
 F:\DEV\Work\Avito\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\Xamarin_Magazin_Examle\obj\Debug\netstandard2.0\Xamarin_Magazin_Examle.AssemblyInfo.cs
