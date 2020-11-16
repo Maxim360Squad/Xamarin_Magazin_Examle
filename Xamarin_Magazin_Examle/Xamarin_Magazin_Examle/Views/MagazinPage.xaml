@@ -6,7 +6,7 @@
              mc:Ignorable="d"
              x:Class="Xamarin_Magazin_Examle.Views.MagazinPage">
   <ListView x:Name="ShopListView"
-            ItemTapped="ToDetalsPage_ItemTapped"
+            ItemSelected="ToDetalsPage_ItemSelected"
             ItemsSource="{Binding Shop.offers}"
             CachingStrategy="RecycleElement">
 
@@ -17,19 +17,5 @@
         </DataTemplate>
     </ListView.ItemTemplate>
     
-    <!--Custom View Cells-->
-        <!--
-        <ListView.ItemTemplate>
-      <DataTemplate>
-        <ViewCell>
-          <StackLayout>
-                      
-              <Label Text="{Binding json}"
-                   Style="{DynamicResource ListItemTextStyle}" />
-                </StackLayout>
-        </ViewCell>
-      </DataTemplate>
-    </ListView.ItemTemplate>
-        -->
   </ListView>
 </ContentPage>

@@ -18,25 +18,15 @@ namespace Xamarin_Magazin_Examle.Views
         {
             InitializeComponent();
             BindingContext = model = new ViewsModels.MagazinModel();
-           // ShopListView.ItemsSource = model.Shop.offers;
+            ShopListView.ItemsSource = model.Shop.offers;
         }
-        async void ToDetalsPage_ItemTapped(object sender, SelectedItemChangedEventArgs e)
+        async void ToDetalsPage_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
+            if (e.SelectedItem == null) return;
             Models.Offer item = (Models.Offer)e.SelectedItem;
-            ((ListView)sender).SelectedItem = null;
-            await DisplayAlert(item.id, item.json, "OK");
+            //((ListView)sender).SelectedItem = null;
 
-            await Navigation.PushModalAsync(new Views.OfferPage(item));
-        }
-        async void Handle_ItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            if (e.Item == null)
-                return;
-
-            await DisplayAlert("Item Tapped", "An item was tapped.", "OK");
-
-            //Deselect Item
-            ((ListView)sender).SelectedItem = null;
+            await Navigation.PushModalAsync(new Views.OfferPage(new ViewsModels.OfferModel(item)));
         }
     }
 }

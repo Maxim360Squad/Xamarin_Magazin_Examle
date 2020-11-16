@@ -12,29 +12,16 @@ namespace Xamarin_Magazin_Examle.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class OfferPage : ContentPage
     {
-        public Models.Offer Item;
-        public OfferPage()
+        ViewsModels.OfferModel model;
+        public OfferPage(ViewsModels.OfferModel offerModel)
         {
             InitializeComponent();
-            Item = new Models.Offer { id = "ERROR", json = "ERROR" };
-            BindingContext = this;
-        }
-        public OfferPage(Models.Offer offer)
-        {
-            InitializeComponent();
-            Item = offer;
-            Test();
+            BindingContext = model = offerModel;
         }
 
-        async void Test()
-        {
-          await  DisplayAlert("Item Tapped", Item.id, "OK");
-
-        }
         private async void BackButton_Click(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
         }
-
     }
 }
