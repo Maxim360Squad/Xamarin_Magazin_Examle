@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lJSLKSIkf/lmwjgLFneeY8QGctTAL1VLQ/Hj5dedXajkgoJeF4rdOyrr7aX1zLjoay3HsEdcuxs2ymiilqxCqg==",
+  "success": true,
+  "projectFilePath": "F:\\DEV\\Work\\Avito\\Xamarin_Magazin_Examle\\Xamarin_Magazin_Examle\\Xamarin_Magazin_Examle\\Xamarin_Magazin_Examle.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Maxim\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Maxim\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Maxim\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\Maxim\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "E:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.3.1\\xamarin.essentials.1.3.1.nupkg.sha512",
+    "E:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.5.0.495\\xamarin.forms.4.5.0.495.nupkg.sha512"
+  ],
+  "logs": []
+}
